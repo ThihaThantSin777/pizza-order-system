@@ -1,0 +1,11 @@
+#code-lab-pizza {
+    animation: shake 1s infinite;
+}
+@keyframes shake {
+    from {
+        transform: scale(1.02);
+    }
+    to {
+        transform: scale(1);
+    }
+}
